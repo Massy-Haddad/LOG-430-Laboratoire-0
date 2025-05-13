@@ -3,28 +3,31 @@
 ## 📄 Description
 Application JavaScript en ligne de commande qui permet d'afficher un message de bienvenue, avec possibilité de personnalisation via un argument (le nom).
 
-## ▶️ Instructions d’exécution
-
-### Exécution locale
+## Exécution locale
 ```bash
 # Installer les dépendances
 npm install
 
 # Lancer l’application
 npm start [nom]
+```
 ---
-# Exécution avec Docker
-## Construire l’image Docker
-`docker build -t laboratoire-0-image .`
+## Exécution avec Docker
+```bash
+# Construire l’image Docker
+docker build -t laboratoire-0-image .
 
-## Lancer le conteneur
-`docker run --rm laboratoire-0-image [nom]`
+# Lancer le conteneur
+docker run --rm laboratoire-0-image [nom]
+```
 
-### Exécution avec Docker Compose
-`docker compose up --build`
+## Exécution avec Docker Compose
+```bash
+docker compose up --build
+```
 
 # Structure du projet
-```bash
+```md
 LOG430-Laboratoire-0/
 ├── src/
 │   └── index.js            # Fichier principal de l'application
