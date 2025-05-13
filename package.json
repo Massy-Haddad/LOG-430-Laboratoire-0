@@ -6,8 +6,8 @@
 	"scripts": {
 		"start": "node src/index.js",
 		"test": "jest",
-    "docker-compose": "docker compose up --build",
-    "docker-compose-down": "docker compose down"
+		"docker-compose": "docker compose up --build",
+		"docker-compose-down": "docker compose down"
 	},
 	"repository": {
 		"type": "git",
@@ -21,6 +21,8 @@
 	},
 	"homepage": "https://github.com/Massy-Haddad/LOG-430-Laboratoire-0#readme",
 	"devDependencies": {
+		"eslint": "^9.26.0",
+		"globals": "^16.1.0",
 		"jest": "^29.7.0"
 	}
 }
