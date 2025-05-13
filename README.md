@@ -31,6 +31,7 @@ docker compose up --build
 LOG430-Laboratoire-0/
 ├── src/
 │   └── index.js            # Fichier principal de l'application
+│   └── utils.js            # Fichier utilitaire
 ├── tests/
 │   └── utils.test.js       # Tests unitaires avec Jest
 ├── .github/
