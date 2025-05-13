@@ -1,20 +1,24 @@
 {
-  "name": "log-430-laboratoire-0",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Massy-Haddad/LOG-430-Laboratoire-0.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Massy-Haddad/LOG-430-Laboratoire-0/issues"
-  },
-  "homepage": "https://github.com/Massy-Haddad/LOG-430-Laboratoire-0#readme"
+	"name": "log-430-laboratoire-0",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Massy-Haddad/LOG-430-Laboratoire-0.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Massy-Haddad/LOG-430-Laboratoire-0/issues"
+	},
+	"homepage": "https://github.com/Massy-Haddad/LOG-430-Laboratoire-0#readme",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
 }
