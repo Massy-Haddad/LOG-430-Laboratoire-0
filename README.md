@@ -1,4 +1,4 @@
-# (LOG430) Lab 0 - Infrastructure - Docker, Kubernets, Version Control, CD/CI
+# (LOG430) Lab 0 - Infrastructure - Docker, Kubernets, Version Control, CI/CD
 
 Application minimaliste en ligne de commande développée en NodeJS/JavaScript.
 
@@ -29,7 +29,7 @@ LOG430-Laboratoire-0/
 
 ### 1. Cloner le dépôt
 ```bash
-git clone https://github.com/votre-utilisateur/LOG430-Laboratoire-0.git
+git clone https://github.com/Massy-Haddad/LOG-430-Laboratoire-0.git
 cd LOG430-Laboratoire-0
 ```
 
