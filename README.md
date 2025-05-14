@@ -2,6 +2,29 @@
 
 Application minimaliste en ligne de commande développée en NodeJS/JavaScript.
 
+## Choix techniques
+
+- **JavaScript avec Node.js**  
+  Choisi pour sa simplicité, sa compatibilité avec les projets en ligne de commande, et parce qu’il ne nécessite pas de serveur web pour une application minimale.
+
+- **Jest pour les tests**  
+  Outil léger et populaire dans l’écosystème JavaScript. Il permet d’écrire des tests simples rapidement et convient bien pour valider des fonctions utilitaires.
+
+- **ESLint pour le linting**  
+  Utilisé pour vérifier la qualité du code, détecter les erreurs courantes et maintenir un style de code uniforme.
+
+- **Docker**  
+  Permet d’exécuter l’application dans un environnement isolé, reproductible et indépendant de la machine de développement.
+
+- **Docker Compose**  
+  Utilisé pour centraliser le lancement de l’application. Il facilitera aussi l’ajout futur de services complémentaires comme une base de données ou une API.
+
+- **GitHub Actions pour la CI/CD**  
+  Intégré directement à GitHub, il est simple à configurer et idéal pour automatiser les étapes de lint, de test, de build, et de publication Docker.
+
+- **Publication sur Docker Hub**  
+  Permet de centraliser l’image Docker et de la rendre accessible publiquement pour simplifier le déploiement et le partage.
+
 ---
 
 ## Structure du projet
